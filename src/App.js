@@ -42,7 +42,13 @@ const App = () => {
 
           <div>
             <Routes>
+              {/* Dashboard */}
               <Route path='/' element='ECommerce' />
+              <Route path='/ecommerce' element='ECommerce' />
+
+              {/* Pages */}
+              <Route path='/orders' element='Orders'>
+
             </Routes>
           </div>
 
