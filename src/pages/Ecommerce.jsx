@@ -48,6 +48,15 @@ const Ecommerce = () => {
           ))}
         </div>
       </div>
+
+        <div className='flex gap-10 flex-wrap justify-center'>
+
+            <div className='bg-white dark:text-gray-200 dark:bg-secondary-dark-bg m-3 p-4 rounded-2xl md:w-780'>
+              
+            </div>          
+
+        </div>
+
     </div>
   )
 }
