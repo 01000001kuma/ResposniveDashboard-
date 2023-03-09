@@ -21,10 +21,11 @@ const Ecommer = () => {
             </div> 
           </div>
           <div className='mt-6'>
-            <Button color='white' bgColor='blue' text='Download' borderRadius='10px' size='md' />
-
-            
+            <Button color='white' bgColor='blue' text='Download' borderRadius='10px' size='md' />            
           </div>
+        </div>
+        <div>
+          
         </div>
       </div>
     </div>
