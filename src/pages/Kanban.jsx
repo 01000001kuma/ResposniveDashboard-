@@ -18,6 +18,6 @@ const Kanban = () => {
     </KanbanComponent>
     
     </div>
-}
+)}
 
 export default Kanban
