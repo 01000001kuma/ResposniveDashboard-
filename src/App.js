@@ -14,7 +14,7 @@ import './App.css'
 
 const App = () => {
 
-  const { activeMenu, setActiveMenu } = useStateContext();
+  const { activeMenu, themeSettings } = useStateContext();
   
   return (
     <div>
@@ -45,7 +45,7 @@ const App = () => {
             </div>
 
           <div>
-            <ThemeSettings />
+            {themeSettings && <ThemeSettings />}
 
 
             <Routes>
